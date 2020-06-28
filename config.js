@@ -72,4 +72,42 @@ module.exports = {
     },
 
   },
+  creation: {
+    chalets: {
+      name: 'Chalets et Caviar',
+      technology: 'Wordpress',
+      color: '#43ace0',
+      url: 'https://wordpress-409224-1306010.cloudwaysapps.com/',
+    },
+    festival: {
+      name: 'Festival des films en plein air',
+      technology: 'Bootstrap',
+      color: '#257acc',
+      url: 'https://projet3oc.netlify.app/',
+    },
+    citations: {
+      name: 'Générateur de citations',
+      technology: 'Javascript',
+      color: '#f0da50',
+      url: 'https://projet5oc.netlify.app',
+    },
+    jeu: {
+      name: 'Jeu de plateau',
+      technology: 'Javascript et JQuery',
+      color: '#f0da50',
+      url: 'https://projet6oc.netlify.app',
+    },
+    localisation: {
+      name: 'Application d\'avis de réstaurants',
+      technology: 'Javascript',
+      color: '#f0da50',
+      url: 'https://projet7oc.com/',
+    },
+    ong: {
+      name: 'ONG AIESOR',
+      technology: 'Wordpress',
+      color: '#43ace0',
+      url: 'https://wordpress-409224-1287621.cloudwaysapps.com/',
+    },
+  },
 };

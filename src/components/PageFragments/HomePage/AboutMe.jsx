@@ -47,7 +47,7 @@ const AboutMe = () => {
             img="café.png"
             alt="café image"
             textH4="J'adore le café"
-            textH3="Café + Ordinateur = Bonheur"
+            textH3="Café + Ordinateur = 👍"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
