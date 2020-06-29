@@ -1,19 +1,15 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import style from './crea.module.less';
+import style from './tags.module.less';
 
-const CreaCard = (props) => {
+const CreaCards = (props) => {
   const {
-    name, technlogy, color, url,
+    name, technology, color, url,
   } = props;
   return (
-    <Link className={style.tagCard} to={}>
+    <a href={url}>
       <div className={style.tagCard}>
         <div
           className={style.tagImg}
-          style={{
-            backgroundImage: `url(${img})`,
-          }}
         />
         <div className={style.pd20px}>
           <div className="textCenter">
@@ -23,12 +19,12 @@ const CreaCard = (props) => {
             </h4>
           </div>
           <p>
-            {technlogy}
+            {technology}
           </p>
         </div>
       </div>
-    </Link>
+    </a>
   );
 };
 
-export default CreaCard
+export default CreaCards;

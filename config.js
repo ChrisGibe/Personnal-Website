@@ -3,7 +3,7 @@ module.exports = {
   siteUrl: 'https://rolwinreevan.com',
   siteTitle: 'Gibelli Christophe',
   siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  author: 'Gibelli Christophe',
   postsForArchivePage: 3,
   defaultLanguage: 'fr',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
@@ -13,7 +13,7 @@ module.exports = {
     contact: 'contact',
     resume: 'resume',
     tag: 'tags',
-    creation: 'creation',
+    creation: 'creations',
   },
   social: {
     github: 'https://github.com/rolwin100',
@@ -70,9 +70,13 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
-
+    teub: {
+      name: 'python',
+      description: 'A general purpose programming language that is widely used for developing various applications.',
+      color: '#f9c646',
+    },
   },
-  creation: {
+  creations: {
     chalets: {
       name: 'Chalets et Caviar',
       technology: 'Wordpress',
