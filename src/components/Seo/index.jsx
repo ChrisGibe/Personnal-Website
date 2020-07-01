@@ -39,7 +39,6 @@ function SEO({
           : [];
         const pageUrl = Utils.resolvePageUrl(
           Config.siteUrl,
-          Config.pathPrefix,
           path,
         );
         const metaImageUrl = Utils.resolveUrl(
