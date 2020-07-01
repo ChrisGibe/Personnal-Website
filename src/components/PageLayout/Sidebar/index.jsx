@@ -47,6 +47,11 @@ const DomContent = () => (
 &nbsp; &nbsp; Nice, FRANCE
         </li>
         <li className={`${style.contactBlockItem}`}>
+          <span><FeatherIcon size="19" icon="phone" /></span>
+          {' '}
+&nbsp; &nbsp; 06.67.63.71.95
+        </li>
+        <li className={`${style.contactBlockItem}`}>
           <span><FeatherIcon size="19" icon="mail" /></span>
           {' '}
 &nbsp; &nbsp;

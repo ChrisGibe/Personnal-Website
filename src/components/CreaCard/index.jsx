@@ -1,15 +1,18 @@
 import React from 'react';
-import style from './tags.module.less';
+import style from './crea.module.less';
 
 const CreaCards = (props) => {
   const {
-    name, technology, color, url,
+    name, technology, color, url, img,
   } = props;
   return (
     <a href={url}>
       <div className={style.tagCard}>
         <div
           className={style.tagImg}
+          style={{
+            backgroundImage: `url(${img})`,
+          }}
         />
         <div className={style.pd20px}>
           <div className="textCenter">
@@ -18,7 +21,7 @@ const CreaCards = (props) => {
               {name}
             </h4>
           </div>
-          <p>
+          <p className="textCenter">
             {technology}
           </p>
         </div>

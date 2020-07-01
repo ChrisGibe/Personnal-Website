@@ -9,15 +9,8 @@ import SidebarWrapper from '../../components/PageLayout/Sidebar';
 import Config from '../../../config';
 import CreaCards from '../../components/CreaCard/index';
 
-const creaObject = Config.creations;
-
 const Crea = ({ data }) => {
-  const { allFile: { edges } } = data;
-  const rawTags = data.allFile.edges;
-  // eslint-disable-next-line no-console
-  console.log(edges);
-  // eslint-disable-next-line no-console
-  console.log(rawTags);
+  const creaObject = Config.creations;
   return (
     <Layout className="outerPadding">
       <Layout className="container">
@@ -31,17 +24,22 @@ const Crea = ({ data }) => {
         <SidebarWrapper>
           <>
             <div className="marginTopTitle">
-              <h1 className="titleSeparate">#Création</h1>
+              <h1 className="titleSeparate">#Créations</h1>
             </div>
             <Row gutter={[30, 20]}>
-              <Col xs={24} sm={24} md={12} lg={8}>
-                <CreaCards
-                  name={data.name}
-                  technology={creaObject.chalets.technology}
-                  color={creaObject.chalets.color}
-                  url={creaObject.chalets.url}
-                />
-              </Col>
+              {
+                data.allFile.edges.map((val) => (
+                  <Col xs={24} sm={24} md={12} lg={8}>
+                    <CreaCards
+                      name={creaObject[val.node.name].name}
+                      technology={creaObject[val.node.name].technology}
+                      color={creaObject[val.node.name].color}
+                      url={creaObject[val.node.name].url}
+                      img={val.node.childImageSharp.fluid.src}
+                    />
+                  </Col>
+                ))
+              }
             </Row>
           </>
         </SidebarWrapper>
@@ -51,20 +49,20 @@ const Crea = ({ data }) => {
 };
 
 export const query = graphql`
-  {
-    allFile(filter: { relativeDirectory: { eq: "creations" } }) {
-      edges {
-        node {
-          name
-          childImageSharp {
-            fluid(maxWidth: 400) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
+{
+  allFile(filter: {relativeDirectory: {eq: "creations"}}) {
+    edges {
+      node {
+        name
+        childImageSharp {
+          fluid(maxWidth: 400) {
+            src
           }
         }
       }
     }
   }
+}
 `;
 
 export default Crea;
