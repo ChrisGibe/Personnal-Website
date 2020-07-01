@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'http://localhost:8000/',
+  siteUrl: 'https://stupefied-johnson-520668.netlify.app',
   siteTitle: 'Gibelli Christophe',
   siteDescription: 'Logbook of a software developer',
   author: 'Gibelli Christophe',
