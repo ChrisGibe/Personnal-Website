@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Layout, Row, Col } from 'antd';
+import NewLetter from '../../components/PageFragments/NewsLetter';
 import Header from '../../components/PageLayout/Header';
 
 import SidebarWrapper from '../../components/PageLayout/Sidebar';
@@ -23,6 +24,7 @@ const Blog = ({ data }) => (
         <div className="marginTopTitle">
           <h1 className="titleSeparate">Blog</h1>
         </div>
+        <NewLetter />
         <Row gutter={[20, 20]}>
           {
             data.allMarkdownRemark && data.allMarkdownRemark.edges.map((val, key) => (
@@ -55,7 +57,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            date
+            date(formatString: "DD MMMM, YYYY", locale: "fr")
             path
             title
             tags

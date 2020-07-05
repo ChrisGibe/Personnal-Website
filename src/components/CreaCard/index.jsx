@@ -6,7 +6,7 @@ const CreaCards = (props) => {
     name, technology, color, url, img,
   } = props;
   return (
-    <a href={url} target="_blank" rel="noopener noreferrer">
+    <a href={url}>
       <div className={style.tagCard}>
         <div
           className={style.tagImg}

@@ -29,7 +29,7 @@ const Crea = ({ data }) => {
             <Row gutter={[30, 20]}>
               {
                 data.allFile.edges.map((val) => (
-                  <Col xs={24} sm={24} md={12} lg={8}>
+                  <Col key={val.node.name} xs={24} sm={24} md={12} lg={8}>
                     <CreaCards
                       name={creaObject[val.node.name].name}
                       technology={creaObject[val.node.name].technology}

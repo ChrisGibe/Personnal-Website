@@ -2,11 +2,11 @@ module.exports = {
   pathPrefix: '',
   siteUrl: 'https://stupefied-johnson-520668.netlify.app',
   siteTitle: 'Gibelli Christophe',
-  siteDescription: 'Logbook of a software developer',
+  siteDescription: 'Journal de bord d\'un développeur Front End',
   author: 'Gibelli Christophe',
   postsForArchivePage: 3,
   defaultLanguage: 'fr',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT,
   pages: {
     home: '/',
     blog: 'blog',
@@ -18,11 +18,11 @@ module.exports = {
   social: {
     github: 'https://github.com/ChrisGibe',
     facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    twitter: 'https://twitter.com/GibelliChris',
+    instagram: 'https://www.instagram.com/chris.gibe/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/eb49b53d-2831-41ae-a929-46af3131b8e6',
   googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
   tags: {
     javascript: {

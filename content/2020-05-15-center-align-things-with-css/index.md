@@ -4,8 +4,20 @@ tags: [ html, css, reactjs ]
 date: 2020-05-15T05:25:44.226Z
 path: blog/center-align-things-with-css
 cover: ./flexbox-css.jpg
-excerpt: Many a time I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS. So let's see few ways in how you can align content with css.  
+excerpt: Comment les navigateurs résolvent les styles CSS concurrents.  
 ---
+
+Nous stylisons nos sites Web à l'aide de CSS **(Cascading Style Sheets)**.  
+Quel est donc cette fameuse **Cascade** ?
+
+On c'est déjà tous posé cette question : **"Pourquoi cette propriété CSS ne fonctionne t'elle pas ?!"**.  
+Avec bien sur la tentation de mettre `!important`.  
+Il faut savoir une chose importante, la cascade est l'une des parties les plus puissantes de CSS, elle peut donc  
+devenir très vite frustrante si on ne la comprend pas bien.  
+
+> 
+> La cascade CSS est la façon dont nos navigateurs résolvent les déclarations CSS concurrentes.  
+
 
 Many a time I noticed that people find it very difficult to align content to the center either vertically or horizontally using CSS 😐.
 So I decided to write a few ways of aligning content to the center using CSS 😃.

@@ -52,17 +52,17 @@ const AboutMe = () => {
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
-            img="meeting.png"
+            img="twitch.png"
             alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            textH4="Fan de Twitch"
+            textH3="Esport : Overwatch League"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="cyclisme.png"
             alt="cycliste image"
-            textH4="J'adore le vélo"
+            textH4="Je fais du vélo"
             textH3="Le vélo c'est la vie"
           />
         </Col>

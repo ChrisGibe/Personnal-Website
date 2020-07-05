@@ -59,7 +59,7 @@ export default () => {
             </li>
             <li className={style.navItem}>
               <Link to="/resume" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Resumé
+                Résumé
               </Link>
             </li>
           </ul>

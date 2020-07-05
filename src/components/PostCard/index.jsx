@@ -1,5 +1,4 @@
 import React from 'react';
-import moment from 'moment';
 import { Link } from 'gatsby';
 import style from './postCard.module.less';
 
@@ -17,7 +16,7 @@ const PostCard = (props) => {
         />
         <div className={style.mrTp20}>
           <p>
-            <span className={style.dateHolder}>{frontmatter ? moment(frontmatter.date).format('MMM Do YYYY') : ''}</span>
+            <span className={style.dateHolder}>{frontmatter ? frontmatter.date : ''}</span>
           </p>
           <h3>{frontmatter ? frontmatter.title : ''}</h3>
           <p>{frontmatter ? frontmatter.excerpt : ''}</p>
