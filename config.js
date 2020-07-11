@@ -1,6 +1,6 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://stupefied-johnson-520668.netlify.app',
+  siteUrl: 'https://www.gibelli-christophe.com',
   siteTitle: 'Gibelli Christophe',
   siteDescription: 'Journal de bord d\'un développeur Front End',
   author: 'Gibelli Christophe',
@@ -17,13 +17,13 @@ module.exports = {
   },
   social: {
     github: 'https://github.com/ChrisGibe',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
+    facebook: 'https://www.facebook.com/christophe.gibelli.7',
     twitter: 'https://twitter.com/GibelliChris',
     instagram: 'https://www.instagram.com/chris.gibe/',
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/eb49b53d-2831-41ae-a929-46af3131b8e6',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'UA-172403513-1',
   tags: {
     javascript: {
       name: 'javascript',
@@ -88,7 +88,7 @@ module.exports = {
     },
     citations: {
       name: 'Générateur de citations',
-      technology: 'Javascript',
+      technology: 'Javascript / VueJS',
       color: '#f0da50',
       url: 'https://projet5oc.netlify.app',
       img: 'chalets.JPG',
@@ -111,7 +111,7 @@ module.exports = {
       name: 'ONG AIESOR',
       technology: 'Wordpress',
       color: '#43ace0',
-      url: 'https://wordpress-409224-1287621.cloudwaysapps.com/',
+      url: 'https://www.ongaiseor.org/',
       img: 'chalets.JPG',
     },
   },
