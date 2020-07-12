@@ -5,15 +5,15 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Salut !! Je m'appelle GIBELLI Christophe. 
+  paraOne: `Salut ! Je m'appelle GIBELLI Christophe. 
     Je suis un développeur web front end passionné par diverses technologies web. 
     J'ai obtenu mon diplôme en suivant une formation chez OpenClassrooms. 
     Consultez mon blog que je mets à jour chaque semaine pour trouver du Javascript et des notes intéressantes 
     sur les technologies Web ainsi que mon expérience de freelance.`,
   paraTwo: `Actuellement, je travaille principalement avec des technologies Javascript comme ReactJS. 
     Je suis également un fervent utilisateur de GatsbyJs. 
-    J'utilise également Firebase pour la gestion de mon backend et je déploie des applications en gardant à l'esprit l'évolutivité. 
-    Je suis toujours un apprenant et un programmeur autodidacte..`,
+    J'utilise aussi Firebase pour la gestion de mon backend et je déploie des applications en gardant à l'esprit l'évolutivité. 
+    Je suis toujours un apprenant et un programmeur autodidacte.`,
 };
 const AboutMe = () => {
   const description = `${pageText.paraOne} ${stripTags(pageText.paraTwo)}`;
