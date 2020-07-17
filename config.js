@@ -87,7 +87,7 @@ module.exports = {
     },
     citations: {
       name: 'Générateur de citations',
-      technology: 'Javascript / VueJS',
+      technology: 'Javascript ES6 / VueJS / React',
       color: '#f0da50',
       url: 'https://projet5oc.netlify.app',
       img: 'ciations.JPG',
