@@ -94,7 +94,7 @@ module.exports = {
     },
     jeu: {
       name: 'Jeu de plateau',
-      technology: 'Javascript et JQuery',
+      technology: 'Javascript E6 + Webpack',
       color: '#f0da50',
       url: 'https://projet6oc.netlify.app',
       img: 'jeu.JPG',
