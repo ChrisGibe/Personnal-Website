@@ -73,9 +73,9 @@ module.exports = {
   creations: {
     chalets: {
       name: 'Chalets et Caviar',
-      technology: 'Wordpress',
+      technology: 'Wordpress + Gatsby',
       color: '#43ace0',
-      url: 'https://wordpress-409224-1306010.cloudwaysapps.com/',
+      url: 'https://chaletsetcaviar.netlify.app/',
       img: 'chalets.JPG',
     },
     festival: {
