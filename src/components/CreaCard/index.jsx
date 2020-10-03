@@ -29,5 +29,4 @@ const CreaCards = (props) => {
     </a>
   );
 };
-
 export default CreaCards;
