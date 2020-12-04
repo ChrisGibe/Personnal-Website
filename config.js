@@ -107,11 +107,18 @@ module.exports = {
       img: 'localisation.JPG',
     },
     ong: {
-      name: 'ONG AIESOR',
+      name: 'ONG AISEOR',
       technology: 'Wordpress',
       color: '#43ace0',
       url: 'https://www.ongaiseor.org/',
       img: 'ong.JPG',
+    },
+    calculator: {
+      name: 'React Calculator',
+      technology: 'React / Jest',
+      color: '#61dbfa',
+      url: 'https://reactjest-calculator.netlify.app/',
+      img: 'calculator.JPG',
     },
   },
 };
