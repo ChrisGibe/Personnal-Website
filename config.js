@@ -120,5 +120,12 @@ module.exports = {
       url: 'https://reactjest-calculator.netlify.app/',
       img: 'calculator.JPG',
     },
+    markdown: {
+      name: 'React Markdown editor',
+      technology: 'React / Bootstrap',
+      color: '#61dbfa',
+      url: 'https://reactjs-markdown.netlify.app/',
+      img: 'markdown.JPG',
+    },
   },
 };
