@@ -71,13 +71,6 @@ module.exports = {
     },
   },
   creations: {
-    chalets: {
-      name: 'Chalets et Caviar',
-      technology: 'Wordpress + Gatsby',
-      color: '#43ace0',
-      url: 'https://chaletsetcaviar.netlify.app/',
-      img: 'chalets.JPG',
-    },
     festival: {
       name: 'Festival des films en plein air',
       technology: 'Bootstrap',
@@ -100,8 +93,8 @@ module.exports = {
       img: 'jeu.JPG',
     },
     localisation: {
-      name: 'Application d\'avis de réstaurants',
-      technology: 'Javascript',
+      name: 'Application d\'avis de restaurants',
+      technology: 'Javascript + SASS',
       color: '#f0da50',
       url: 'https://projet7oc.netlify.app/',
       img: 'localisation.JPG',
