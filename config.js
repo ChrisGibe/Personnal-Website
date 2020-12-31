@@ -120,5 +120,12 @@ module.exports = {
       url: 'https://reactjs-markdown.netlify.app/',
       img: 'markdown.JPG',
     },
+    todolist: {
+      name: 'React + Redux Todolist',
+      technology: 'React / Redux',
+      color: '#764abc',
+      url: 'https://cg-todolist-react-redux.netlify.app/',
+      img: 'todolist.JPG',
+    },
   },
 };
