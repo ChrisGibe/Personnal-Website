@@ -65,7 +65,7 @@ const DomContent = () => (
           </a>
         </li>
       </ul>
-      <button type="button" onClick={disable}>Disable</button>
+      <button type="button" onClick={disable}>Disables</button>
       <div className={style.resumeDownload}>
         <a href="../resume.pdf" download target="_blank">Télécharger CV</a>
       </div>
