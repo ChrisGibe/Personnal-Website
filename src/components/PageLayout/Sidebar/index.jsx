@@ -15,9 +15,6 @@ const {
   stackOverflow, github, twitter,
 } = Config.social;
 
-const disable = () => {
-  window['ga-disable-UA-123456-1'] = true;
-};
 const DomContent = () => (
   <aside>
     <div className={style.profileAvatar} />
@@ -65,7 +62,6 @@ const DomContent = () => (
           </a>
         </li>
       </ul>
-      <button type="button" onClick={disable}>Disables</button>
       <div className={style.resumeDownload}>
         <a href="../resume.pdf" download target="_blank">Télécharger CV</a>
       </div>
